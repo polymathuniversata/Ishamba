@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Ishamba
+  host: Isamba
+  disk_quota: 1024M
+  services:
+  - Isamba-cloudantNoSQLDB
+  - Isamba-iotf-service
